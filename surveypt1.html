@@ -9,16 +9,30 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
   line-height: 1.6;
-  background-color: teal;
-
+  background-color: teal
 }
-div {
-background-color: whitesmoke;
-width: 800px;
-border-radius: 25px;
-border: 15px solid rgb(0, 126, 2);
-padding: 50px;
-margin: 20px;
+
+div.porl{
+        
+        background-color: whitesmoke;
+    width: 800px;
+    border-radius: 25px;
+    border: 15px solid rgb(0, 126, 2);
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+
+div.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7371ff;
+  color: black;
+font-family: "arial";
+  text-align: center;
 }
 h1 {
   color: #333;
@@ -63,14 +77,10 @@ input[type="submit"]:hover {
 </head>
 <body>
 <center>
-<div>
+<div class="porl">
 
 <h1 align="center">Personal Information</h1>
-<h3>
-    Submitted by:<br>
-    Daniella Therese D. Galindez<br>
-    Zachary Luis G. Arenal
-</h3>
+
 
 <form id="surveyForm">
   <label for="name">Name:</label>
@@ -186,7 +196,10 @@ input[type="submit"]:hover {
 
 </form>
 </div>
-
+<div class="footer">
+    <h1>PERFORMANCE TASK #1 BY: DANIELLA GALINDEZ AND ZACHARY LUIS ARENAL
+  </div>
+  
 <script>
     function test() {
         var name = document.getElementById('name').value;
