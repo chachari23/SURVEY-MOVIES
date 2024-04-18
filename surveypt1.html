@@ -200,8 +200,7 @@ input[type="submit"]:hover {
     <h1>PERFORMANCE TASK #1 BY: DANIELLA GALINDEZ AND ZACHARY LUIS ARENAL
   </div>
   
-<script src="surveypt1.html">
-    
+<script>
     function test() {
         var name = document.getElementById('name').value;
         var age = document.getElementById('age').value;
@@ -214,9 +213,9 @@ input[type="submit"]:hover {
         var streaming = document.getElementById('streaming').value;
         var reviews = document.getElementById('reviews').value;
         var country = document.getElementById('country').value;
-        var reason = document.getElementById('reason').value;
+        var reason = document.getElementById('reasons').value; 
         var impressed = document.getElementById('impressed').value;
-    
+
         localStorage.setItem("name", name);
         localStorage.setItem("age", age);
         localStorage.setItem("email", email);
@@ -228,11 +227,11 @@ input[type="submit"]:hover {
         localStorage.setItem("streaming", streaming);
         localStorage.setItem("reviews", reviews);
         localStorage.setItem("country", country);
-        localStorage.setItem("reason", reasons);
+        localStorage.setItem("reason", reason); 
         localStorage.setItem("impressed", impressed);
-        
     }
-    </script>
+</script>
+
     
 </body>
 </html>
